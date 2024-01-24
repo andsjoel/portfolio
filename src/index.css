@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@font-face {
+    font-family: cosplayCulture;
+    src:url(./assets/fonts/cosplayCulture.ttf);
+  }
+  
+  @font-face {
+    font-family: potatoSans;
+    src:url(./assets/fonts/potatoSans.otf);
+  }
+  
+  @font-face {
+    font-family: lineNexa;
+    src:url(./assets/fonts/lineNexa.ttf);
+  }
+  
+  
+  :root {
+    --primary-background: linear-gradient(180deg, rgb(234, 234, 234) 0%, rgb(120, 180, 240) 100%);
+    --apresentation-name: #947e1b;
+    --apresentation-text: #006f7e;
+    --primary-font: #1d1d1d;
+    --primary-detail: rgb(234, 234, 234);
+    --secondary-detail: #713c9c;
+    --secondary-background: rgb(108, 139, 170);
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  body {
+    background: var(--primary-background);
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }

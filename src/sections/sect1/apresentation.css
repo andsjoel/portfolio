@@ -1,0 +1,38 @@
+.apresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'lineNexa';
+}
+
+.myName {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myName h2 {
+    font-family: 'potatoSans';
+    letter-spacing: 1px;
+    font-size: 68px;
+    margin: 0 12px;
+    color: var(--apresentation-name);
+}
+
+.myName p {
+    font-family: 'cosplayCulture';
+    font-size: 32px;
+    color: var(--apresentation-text);
+}
+
+.itsMe {
+    text-align: center;
+    color: var(--primary-font);
+    width: 600px;
+}
+
+.itsMe p {
+    font-weight: bold;
+    font-size: 18px;
+}
