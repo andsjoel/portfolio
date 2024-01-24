@@ -24,12 +24,26 @@
     --secondary-background: rgb(108, 139, 170);
   }
 
-  body {
-    background: var(--primary-background);
-  }
-
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
+  
+  body {
+    background: var(--primary-background);
+  }
+
+  main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+
+  main section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
   }
