@@ -6,13 +6,20 @@ const Modal = ({ project, onClose }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content">
+        <img src={project.img} alt={project.name} />
         <div>
-          <img src={project.img} alt={project.name} />
-          <h2>{project.name}</h2>
-        </div>
-        <div>
+          <div>
+            <h2>{project.name}</h2>
+            { project.finished ? <h3>Concluído.</h3> : <h3>Em Desenvolvimento...</h3> }
+          </div>
           <p>{project.description}</p>
-          <button onClick={onClose}>Fechar</button>
+          <button className='close' onClick={onClose}>x</button>
+        <div>
+          <ul>
+            <li><a href={ project.repository } rel="noopener noreferrer" target="_blank">Repositório</a></li>
+            <li><a href={ project.page } rel="noopener noreferrer" target="_blank">Visualizar</a></li>
+          </ul>
+        </div>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@
     z-index: 4;
     opacity: 0.5;
     animation-delay: -5s;
-    bottom: 90px;
+    bottom: 80px;
     height: 85px;
 }
 
@@ -42,4 +42,16 @@
     100%{
         background-position-x: 0px;
     }
+}
+
+.email-open .cloud-1 {
+    bottom: 280px;
+}
+
+.email-open .cloud-2 {
+    bottom: 280px;
+}
+
+.email-open .cloud-3 {
+    bottom: 280px;
 }

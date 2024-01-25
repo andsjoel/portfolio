@@ -4,7 +4,8 @@ import AboutMe from "./2_AboutMe/AboutMe";
 import Footer from "../components/Footer/Footer";
 import Skills from "./3_Skills/Skills";
 import Gallery from "./4_Gallery/Gallery";
-import Clouds from "../components/Footer/Clouds";
+// import Clouds from "../components/Footer/Clouds";
+import Contact from "./5_Contact/Contact";
 
 const Home = () => {
     return (
@@ -13,7 +14,8 @@ const Home = () => {
             <AboutMe />
             <Skills />
             <Gallery />
-            <Clouds />
+            <Contact />
+            {/* <Clouds /> */}
             <Footer />
         </main>
     );

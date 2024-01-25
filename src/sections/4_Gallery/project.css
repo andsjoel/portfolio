@@ -1,10 +1,6 @@
 .project {
-    /* position: relative; */
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    /* margin: 5px; */
-    /* width: 30%; */
-    /* background-color: yellow; */
   }
   
   .project:hover {
@@ -29,6 +25,7 @@
     border-bottom-right-radius: 8px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    font-family: 'lineNexa';
   }
   
   .project:hover .project-info {
