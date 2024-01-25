@@ -3,7 +3,7 @@ import "./aboutme.css"
 
 const AboutMe = () => {
     return (
-        <section className="aboutme">
+        <section id="about-me" className="aboutme">
             <h2>SOBRE MIM</h2>
             <p>
             Sou um entusiasta estudante de tecnologias, sempre em busca de conhecimento e atento às inovações que moldam o futuro digital.

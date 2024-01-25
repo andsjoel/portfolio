@@ -1,0 +1,24 @@
+.gallery {
+  margin-top: 100px;
+  padding: 10px;
+  height: 1800px;
+}
+
+/* .grid img {
+  width: 100%;
+  border-radius: 4px;
+} */
+
+.grid {
+  column-count: 6;
+  column-gap: 10px;
+}
+
+.galleryTitle {
+  font-family: 'potatoSans';
+  letter-spacing: 1px;
+  font-size: 58px;
+  margin: 0 12px;
+  color: var(--apresentation-text);
+  margin: 8px 0;
+}

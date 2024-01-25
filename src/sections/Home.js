@@ -3,6 +3,8 @@ import Apresentation from "./1_Apresentation/Apresentation";
 import AboutMe from "./2_AboutMe/AboutMe";
 import Footer from "../components/Footer/Footer";
 import Skills from "./3_Skills/Skills";
+import Gallery from "./4_Gallery/Gallery";
+import Clouds from "../components/Footer/Clouds";
 
 const Home = () => {
     return (
@@ -10,6 +12,8 @@ const Home = () => {
             <Apresentation />
             <AboutMe />
             <Skills />
+            <Gallery />
+            <Clouds />
             <Footer />
         </main>
     );

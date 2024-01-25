@@ -16,7 +16,7 @@
   
   :root {
     --primary-background: linear-gradient(180deg, rgb(234, 234, 234) 0%, rgb(120, 180, 240) 100%);
-    --apresentation-name: #947e1b;
+    --apresentation-name: #a08719;
     --apresentation-text: #006f7e;
     --primary-font: #1d1d1d;
     --primary-detail: rgb(234, 234, 234);
@@ -29,6 +29,10 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   body {
     background: var(--primary-background);
@@ -38,11 +42,12 @@
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
   }
 
   main section {
     /* height: 100vh; */
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     scroll-snap-align: start;
   }
