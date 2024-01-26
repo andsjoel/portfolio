@@ -12,9 +12,9 @@ const AboutMe = () => {
             Como desenvolvedor web, encontro prazer em criar interfaces intuitivas e esteticamente agradáveis, priorizando a ergonomia digital para proporcionar experiências naturais e eficientes aos usuários.
             </p>
             <p>
-            No meu portfólio, compartilho meu progresso constante e projetos inovadores que refletem minha abordagem prática e criativa. Estou aberto a colaborações, aprendizado e projetos inovadores. Se tiver uma oportunidade que corresponda às minhas competências e conhecimento, não hesite em me contatar.
+            Neste meu portfólio, compartilho meu progresso constante e projetos inovadores que refletem minha abordagem prática e criativa. Estou aberto a colaborações, aprendizado e projetos inovadores. Se tiver uma oportunidade que corresponda às minhas competências e conhecimento, não hesite em me contatar.
             </p>
-            <h2>Assuntos de interesse</h2>
+            <h3>Assuntos de interesse</h3>
             <ul>
                 <li>Inteligência Artificial</li>
                 <li>Astronomia</li>

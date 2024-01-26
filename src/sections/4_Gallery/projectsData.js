@@ -28,8 +28,8 @@ const projectsData = {
     description: 'Este projeto é uma aplicação para criar e visualizar árvores genealógicas. Permite aos usuários registrar informações sobre membros da família, incluindo nomes, datas de nascimento e falecimento, e relacionamentos familiares. A árvore genealógica é então montada e pode ser visualizada de maneira interativa.',
     repository: 'https://github.com/andsjoel/arvoreGenealogica',
     page: 'https://andsjoel.github.io/arvoreGenealogica/',
+    finished: false,
   },
-  finished: false,
 };
 
 export default projectsData;

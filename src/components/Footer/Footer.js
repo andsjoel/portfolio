@@ -53,7 +53,6 @@ const Footer = () => {
                     <li><a href="#about-me">Sobre</a></li>
                     <li><a href="#skills">Habilidades</a></li>
                     <li><a href="#gallery">Galeria</a></li>
-                    <li><a href="#contact">Até Logo</a></li>
                 </ul>
             </nav>
 

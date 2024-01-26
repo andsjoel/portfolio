@@ -7,7 +7,11 @@
     font-family: 'lineNexa';
 }
 
-.skills .card {
+.mobile-view {
+    display: none;
+}
+
+.normal-view .card {
     text-align: center;
 	background-color: #ffffff63;
 	border-radius: 6px;
@@ -24,26 +28,26 @@
 							transform 0.5s ease;
 }
 
-.skills:hover .card,
-.skills:focus .card,
-.skills:active .card {
+.skills:hover .normal-view .card,
+.skills:focus .normal-view .card,
+.skills:active .normal-view .card {
 	transform: perspective(500px) rotateY(30deg);
 }
 
-.skills .card:hover,
-.skills .card:focus,
-.skills .card:active {
+.skills .normal-view .card:hover,
+.skills .normal-view .card:focus,
+.skills .normal-view .card:active {
 	transform: perspective(500px) rotateY(0) scale(1.2);
     font-weight: bold;
 }
 
-.skills .card:hover ~ .card,
-.skills .card:focus ~ .card,
-.skills .card:active ~ .card {
+.skills .normal-view .card:hover ~ .card,
+.skills .normal-view .card:focus ~ .card,
+.skills .normal-view .card:active ~ .card {
 	transform: perspective(500px) rotateY(-30deg);
 }
 
-.skills .levels {
+.skills .normal-view {
     display: flex;
 }
 
@@ -56,18 +60,18 @@
     margin: 8px 0;
 }
 
-.card h3 {
+.normal-view .card h3 {
     font-size: 16px;
     margin-bottom: 25px;
 }
 
-.card ul {
+.normal-view .card ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.card ul li {
+.normal-view .card ul li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +84,7 @@
     cursor: pointer;
 }
 
-.card ul li:hover {
+.normal-view .card ul li:hover {
     background-color: var(--secondary-detail);
     color: var(--primary-detail);
 }
@@ -88,4 +92,55 @@
 .skills .skillsTitle {
     font-size: 58px;
     margin-bottom: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        font-family: 'lineNexa';
+    }
+
+    .normal-view .card {
+        display: none;
+    }
+
+    .mobile-view {
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+        padding: 8px;
+    }
+
+    .skills .skillsTitle {
+        font-size: 38px;
+        /* margin-bottom: 12px; */
+    }
+
+    .mobile-view h2 {
+        font-size: 22px;
+        text-align: center;
+        margin:0;
+    }
+
+    .mobile-view h3 {
+        font-size: 15px;
+    }
+
+    .mobile-view ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .mobile-view ul li {
+        list-style: none;
+        font-size: 15px;
+    }
 }

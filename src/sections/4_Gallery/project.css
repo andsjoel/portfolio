@@ -12,6 +12,7 @@
     width: 100%;
     border-radius: 4px;
   }
+
   .project-info {
     position: absolute;
     bottom: 0;
@@ -32,3 +33,23 @@
     opacity: 1;
   }
   
+  @media only screen and (max-width: 600px) {
+
+    .project {
+      margin-bottom: 18px;
+    }
+  
+    .project-info {
+      position: relative;
+      opacity: 1;
+    }
+    
+    .project-info h3 {
+      font-size: 14px;
+    }
+
+    .project-info p {
+      font-size: 14px;
+    }
+  
+  }

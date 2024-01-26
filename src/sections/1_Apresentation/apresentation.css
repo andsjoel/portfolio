@@ -36,3 +36,34 @@
     font-weight: bold;
     font-size: 18px;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .apresentation {
+        justify-content: flex-start;
+        padding-top: 80px;
+    }
+    
+    .myName {
+        justify-content: center;
+    }
+    
+    .myName h2 {
+        font-size: 38px;
+        color: var(--apresentation-name);
+    }
+    
+    .myName p {
+        font-size: 22px;
+    }
+    
+    .itsMe {
+        width: 100%;
+    }
+    
+    .itsMe p {
+        font-weight: bold;
+        font-size: 18px;
+    }
+  }

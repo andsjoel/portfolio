@@ -7,7 +7,7 @@
     font-family: 'lineNexa';
 }
 
-.aboutme h2 {
+.aboutme h2, .aboutme h3 {
     font-family: 'potatoSans';
     letter-spacing: 1px;
     font-size: 28px;
@@ -35,13 +35,13 @@
     border: none;
 }
 
-.aboutme h3 {
+/* .aboutme h3 {
     font-family: 'potatoSans';
     letter-spacing: 1px;
     font-size: 28px;
     margin: 0 12px;
     color: var(--apresentation-name);
-}
+} */
 
 .aboutme ul {
     width: 800px;
@@ -62,4 +62,36 @@
 .aboutme ul li:hover {
     background-color: var(--secondary-detail);
     color: var(--primary-detail);
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutme {
+        min-height: 80vh;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .aboutme h2 {
+        font-size: 22px;
+        margin: 0 6px;
+    }
+    
+    .aboutme h2:first-child {
+        font-size: 38px;
+    }
+    
+    .aboutme p {
+        width: 100%;
+        font-size: 15px;
+        margin: 5px 0;
+        padding: 0 8px;
+    }
+    
+    .aboutme h3 {
+        display: none;
+    }
+    
+    .aboutme ul {
+        display: none;
+    }
 }
