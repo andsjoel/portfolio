@@ -5,6 +5,11 @@
     align-items: center;
     min-height: 100vh;
     font-family: 'lineNexa';
+    position: relative;
+}
+
+.apresentation .aviso {
+    display: none;
 }
 
 .myName {
@@ -43,6 +48,13 @@
     .apresentation {
         justify-content: flex-start;
         padding-top: 80px;
+    }
+
+    .apresentation .aviso {
+        display: block;
+        position: absolute;
+        top: 0;
+        font-size: 13px;
     }
     
     .myName {

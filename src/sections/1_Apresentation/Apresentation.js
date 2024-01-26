@@ -4,6 +4,7 @@ import "./apresentation.css"
 const Apresentation = () => {
     return (
         <section id="ola" className="apresentation">
+            <span className="aviso">**este site tem sua visualização otimizada em desktop.</span>
             <div>
                 <div className="myName">
                     <p>Olá, meu nome é</p>
