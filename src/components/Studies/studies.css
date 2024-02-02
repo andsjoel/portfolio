@@ -1,0 +1,80 @@
+.studies {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--apresentation-text);
+    border-right: 1px solid var(--apresentation-text);
+    width: 80%;
+    height: 600px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 6px;
+}
+
+.exp {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    padding: 8px 0;
+}
+
+.exp:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+}
+
+.exp h3 {
+    padding: 4px;
+    font-size: 18px;
+    color: var(--secondary-background);
+    font-family: 'lineNexa';
+    width: 200px;
+}
+
+.exp div {
+    width: 80%;
+}
+
+.exp h4 {
+    font-size: 24px;
+    /* color: var(--apresentation-name); */
+}
+
+.exp p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.exp div span {
+    background-color: var(--primary-detail);
+    padding: 4px;
+    border-radius: 8px;
+    color: var(--apresentation-text);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.exp div a {
+    text-decoration: underline;
+    color: var(--secondary-detail);
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.exp .title {
+    font-weight: bold;
+    padding-left: 8px;
+    color: var(--primary-detail);
+    background-image: linear-gradient(to right, #006f7e, #006f7e18);
+}
+
+.studies::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+.studies::-webkit-scrollbar-thumb {
+    background: var(--apresentation-text); 
+    border-radius: 10px;
+  }
+  

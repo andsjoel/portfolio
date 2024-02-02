@@ -1,146 +1,30 @@
 .skills {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;
+    /* justify-content: space-between; */
+    width: 100%;
+    min-height: 100vh;
     font-family: 'lineNexa';
+    position: relative;
 }
 
-.mobile-view {
-    display: none;
-}
-
-.normal-view .card {
-    text-align: center;
-	background-color: #ffffff63;
-	border-radius: 6px;
-	box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
-	cursor: pointer;
-	display: flex;
-    flex-direction: column;
-	height: 450px;
-	margin: 10px;
-    width: 360px;
-    padding: 5px;
-	transition: background-color 0.5s ease,
-							color 0.5s ease,
-							transform 0.5s ease;
-}
-
-.skills:hover .normal-view .card,
-.skills:focus .normal-view .card,
-.skills:active .normal-view .card {
-	transform: perspective(500px) rotateY(30deg);
-}
-
-.skills .normal-view .card:hover,
-.skills .normal-view .card:focus,
-.skills .normal-view .card:active {
-	transform: perspective(500px) rotateY(0) scale(1.2);
-    font-weight: bold;
-}
-
-.skills .normal-view .card:hover ~ .card,
-.skills .normal-view .card:focus ~ .card,
-.skills .normal-view .card:active ~ .card {
-	transform: perspective(500px) rotateY(-30deg);
-}
-
-.skills .normal-view {
-    display: flex;
-}
-
-.skills h2 {
-    font-family: 'potatoSans';
-    letter-spacing: 1px;
-    margin: 0 12px;
-    color: var(--apresentation-text);
-    font-size: 25px;
-    margin: 8px 0;
-}
-
-.normal-view .card h3 {
-    font-size: 16px;
-    margin-bottom: 25px;
-}
-
-.normal-view .card ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.normal-view .card ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0 12px;
-    margin: 4px 8px;
-    height: 30px;
-    background-color: var(--primary-detail);
-    border-radius: 8px;
+.skills .skills-title {
+    position: absolute;
+    left: 50%;
+    background-color: white;
+    width: 30%;
+    font-size: 28px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
-.normal-view .card ul li:hover {
-    background-color: var(--secondary-detail);
-    color: var(--primary-detail);
+
+.skills .skills-title p {
+    display: flex;
+    align-items: center;
 }
 
-.skills .skillsTitle {
-    font-size: 58px;
-    margin-bottom: 45px;
-}
-
-@media only screen and (max-width: 600px) {
-
-    .skills {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 70vh;
-        font-family: 'lineNexa';
-    }
-
-    .normal-view .card {
-        display: none;
-    }
-
-    .mobile-view {
-        display: flex;
-        flex-direction: column;
-        margin-top: -50px;
-        padding: 8px;
-    }
-
-    .skills .skillsTitle {
-        font-size: 38px;
-        /* margin-bottom: 12px; */
-    }
-
-    .mobile-view h2 {
-        font-size: 22px;
-        text-align: center;
-        margin:0;
-    }
-
-    .mobile-view h3 {
-        font-size: 15px;
-    }
-
-    .mobile-view ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5px;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-
-    .mobile-view ul li {
-        list-style: none;
-        font-size: 15px;
-    }
+.skills .skills-title span {
+    font-size: 50px;
+    margin-right: 8px;
 }

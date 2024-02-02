@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     font-family: 'lineNexa';
     position: relative;
 }
 
-.apresentation .aviso {
-    display: none;
+.apresentation-div {
+    display: flex;
 }
 
 .myName {
@@ -34,7 +34,7 @@
 .itsMe {
     text-align: center;
     color: var(--primary-font);
-    width: 600px;
+    width: 80%;
 }
 
 .itsMe p {
@@ -42,21 +42,49 @@
     font-size: 18px;
 }
 
+.apresentation-links {
+    margin-top: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentation-links span {
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.apresentation-links a {
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 #006f7e;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    cursor: pointer;
+    color: var(--primary-font);
+  }
+
+.apresentation-links a:hover {
+    color: #fff;
+    box-shadow: inset 500px 0 0 0 #006f7e;
+    font-weight: 700;
+  }
+
+.apresentation-links a {
+    font-size: 17px;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
 /* Mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .apresentation {
         justify-content: flex-start;
-        padding-top: 80px;
+        padding-top: 60px;
     }
 
-    .apresentation .aviso {
-        display: block;
-        position: absolute;
-        top: 0;
-        font-size: 13px;
-    }
-    
     .myName {
         justify-content: center;
     }
@@ -77,5 +105,13 @@
     .itsMe p {
         font-weight: bold;
         font-size: 18px;
+    }
+
+    .apresentation-links {
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        margin-top: 30px;
     }
   }

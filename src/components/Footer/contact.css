@@ -1,0 +1,156 @@
+.contact {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.ibb.co/FhfBXMD/static.jpg') repeat center;
+    mix-blend-mode: screen;
+    opacity: .3;
+    animation: animate 1s steps(10) infinite;
+    z-index: -1;
+}
+
+.email-open .icons {
+    margin: 50px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 120px;
+}
+
+.email-open .icons a {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-text);
+}
+
+.email-open .icons img {
+    margin: 0 8px;
+}
+
+.email-open .icons a:hover {
+    text-decoration: underline;
+}
+
+.contact .icons .links {
+    margin-top: 50px;
+}
+
+.links span {
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 #006f7e;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    cursor: pointer;
+    color: var(--primary-font);
+  }
+
+.links a:hover {
+    color: #fff;
+    box-shadow: inset 500px 0 0 0 #006f7e;
+    font-weight: 700;
+  }
+
+.links a {
+    font-size: 17px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.contact-text {
+    margin-left: 50px;
+    width: 60%;
+    border-left: 1px solid #006f7e;
+    padding: 50px;
+}
+
+.contact-text p {
+    width: 600px;
+}
+
+.contact-text form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text .input {
+    background-color: var(--apresentation-text);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    padding-left: 8px;
+    margin: 22px;
+    font-family: 'lineNexa';
+    font-weight: bold;
+    width: 60%;
+    font-size: 16px;
+  }
+
+  .contact-text .input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 8px;
+    font-family: 'lineNexa';
+  }
+
+  .contact-text .textarea {
+    width: 60%;
+    height: 100px;
+    background-color: var(--apresentation-text);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 22px;
+    font-family: 'lineNexa';
+    font-weight: bold;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .contact-text .textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'lineNexa';
+  }
+
+.contact-text .button {
+    font-family: 'lineNexa';
+    color: var(--secondary-detail);
+    background-color: rgba(255, 255, 255, 0);
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid var(--secondary-detail);
+    margin: 22px;
+    font-weight: bold;
+  }
+
+.contact-text .button:hover {
+    color: white;
+    background-color: var(--secondary-detail);
+    border: 2px solid var(--primary-font);
+  }

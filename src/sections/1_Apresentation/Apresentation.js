@@ -4,7 +4,6 @@ import "./apresentation.css"
 const Apresentation = () => {
     return (
         <section id="ola" className="apresentation">
-            <span className="aviso">**este site tem sua visualização otimizada em desktop.</span>
             <div>
                 <div className="myName">
                     <p>Olá, meu nome é</p>
@@ -17,9 +16,13 @@ const Apresentation = () => {
                 </div>
             </div>
             <div className="itsMe">
-                <span>Admirado pelo futuro e apaixonado por tecnologias.</span>
+                <span>Curioso sobre o que o futuro reserva, e apaixonado por explorar novas tecnologias.</span>
                 <p>Sou um desenvolver web de front-end, back-end e estudante de</p>
                 <p>Inteligência Artificial.</p>
+            </div>
+            <div className="apresentation-links">
+                <a><span>→</span>veja um resumo</a>
+                <a href="#about-me"><span>↓</span>vem me conhecer mais</a>
             </div>
         </section>
     );
