@@ -42,7 +42,7 @@ const Studies = () => {
                     <h4>Monitor - Student Summer Job</h4>
                     <p className="title">Trybe</p>
                     <p>Como Monitor em um curso de Desenvolvimento Web, desenvolvi hard skills ao aprimorar conhecimentos técnicos, especialmente em linguagens e ferramentas web. Participei ativamente de monitorias, fornecendo suporte em projetos, fortalecendo minhas habilidades técnicas. Além disso, a experiência contribuiu para o desenvolvimento de soft skills.</p>
-                    <div>
+                    <div className="skills-organization">
                         <span>HardSkills</span>
                         <span>SoftSkills</span>
                         <span>Comunicação</span>

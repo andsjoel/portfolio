@@ -29,13 +29,6 @@
     margin: 10px 0;
 }
 
-.aboutme button {
-    width: 120px;
-    height: 40px;
-    border-radius: 15px;
-    border: none;
-}
-
 .aboutme .curious {
     cursor: pointer;
     margin-bottom: 90px;
@@ -77,40 +70,45 @@
 
 .about-2 {
     width: 100%;
-    height: 600px;
-    margin: 0 18px;
+    /* height: 600px; */
+    /* margin: 0 18px; */
     display: flex;
     justify-content: flex-end;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+
     .aboutme {
-        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 100%;
-        margin-bottom: 50px;
+        min-height: 100vh;
+        font-family: 'lineNexa';
+        padding: 16px;
     }
-    
-    .aboutme h2 {
-        font-size: 22px;
-        margin: 0 6px;
-    }
+
+    /* .aboutme h2, .aboutme h3 {
+        font-family: 'potatoSans';
+        letter-spacing: 1px;
+        font-size: 28px;
+        margin: 0 12px;
+        color: var(--apresentation-text);
+        margin: 22px 0;
+    } */
     
     .aboutme h2:first-child {
-        font-size: 38px;
+        font-size: 28px;
     }
-    
+
     .aboutme p {
         width: 100%;
-        font-size: 15px;
-        margin: 5px 0;
-        padding: 0 8px;
+        font-size: 14px;
+
     }
-    
-    .aboutme h3 {
-        display: none;
+
+    .about-1 .curiosity {
+        font-size: 14px;
     }
-    
-    .aboutme ul {
-        display: none;
-    }
+
 }
