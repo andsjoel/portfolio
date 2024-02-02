@@ -10,7 +10,7 @@ const Skills = () => {
                 <p><span>←</span>veja alguns dos meus projetos</p>
             </div>
             <Portfolio />
-            <Technical />
+            {/* <Technical /> */}
         </section>
     );
 }

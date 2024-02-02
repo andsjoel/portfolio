@@ -5,8 +5,7 @@ import "./portfolio.css"
 const Portfolio = () => {
     return (
         <section className="portfolio">
-    
-    <div>
+  
       {Object.keys(projectsData).map((key) => {
         const project = projectsData[key];
         return (
@@ -29,7 +28,6 @@ const Portfolio = () => {
           </div>
         );
       })}
-    </div>
 
         </section>
     );

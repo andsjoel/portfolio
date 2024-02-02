@@ -34,6 +34,8 @@ const AboutMe = () => {
             <div className="about-2">
                 <Studies />
             </div>
+
+            <a href="#skills" className="go-portfolio"><span>↓</span>veja meu portfolio</a>
         </section>
     );
 }

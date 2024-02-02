@@ -76,6 +76,8 @@ const Contact = () => {
 
                     <input className="button" type="submit" value="Enviar" />
                 </form>
+
+                <a href="https://domenico.website/" className="go-back"><span>←</span>voltar ao currículo</a>
             </div>
         </div>
     );

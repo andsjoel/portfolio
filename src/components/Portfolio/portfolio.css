@@ -85,3 +85,49 @@
     background: var(--apresentation-text); 
     border-radius: 10px;
   }
+
+  @media only screen and (max-width: 1000px) {
+
+    .portfolio {
+        padding: 8px;
+        width: 100%;
+        height: 100%;
+        /* background-color: white; */
+        border-right: 4px solid white;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        background-image: none;
+        border-bottom: 2px solid black;
+    }
+
+    .project-card img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 6px;
+        max-height: 200px;
+        min-width: 200px;
+        margin-right: 8px;
+    }
+    
+    .card-organization2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-organization1 p {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+  }
