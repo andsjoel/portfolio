@@ -12,7 +12,7 @@ const Studies = () => {
             <div className="exp">
                 <h3>Janeiro de 2022 - Presente (Previsto Maio 2024)</h3>
                 <div>
-                    <h4>Graduação EAD - Inteligência Artificial</h4>
+                    <h4>Graduação - Inteligência Artificial</h4>
                     <p className="title">Faculdade Uninassau</p>
                     <p>Com o curso de Inteligência Artificial da UNINASSAU DIGITAL, em parceria com a IBM, você terá oportunidade de conhecer os mais diversos métodos aplicados na área de tecnologia, utilizando inteligência artificial como ferramenta de trabalho.</p>
                     <div>
