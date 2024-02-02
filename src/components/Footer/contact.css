@@ -154,3 +154,68 @@
     background-color: var(--secondary-detail);
     border: 2px solid var(--primary-font);
   }
+
+@media only screen and (max-width: 1000px) {
+
+  .contact {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 40px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0;
+}
+
+.email-open .icons {
+  flex-direction: column;
+}
+
+.email-open .icons a {
+  margin: 0px;
+}
+
+.email-open .icons .links {
+  display: none;
+}
+
+.contact-text {
+  margin: 0;
+  width: 100vw;
+  border-left: none;
+  padding: 0 8px;
+}
+
+.contact-text p {
+  width: 100%;
+}
+
+.contact-text form {
+  width: 100%;
+}
+
+.contact-text .input {
+  margin: 6px;
+  width: 90%;
+}
+
+.contact-text .textarea {
+  width: 90%;
+  height: 100%;
+  margin: 8px;
+  font-size: 16px;
+}
+
+.contact-text .button {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 60px;
+  margin: 8px;
+}
+
+.contact-text .button:hover {
+  color: white;
+  background-color: var(--secondary-detail);
+  border: 2px solid var(--primary-font);
+}
+
+}

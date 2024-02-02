@@ -44,7 +44,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/andsjoel/" target="_blank"><img src={ linkedin_Icon } alt="github"/>linkedin.com/in/andsjoel</a>
                 <a href="https://www.instagram.com/dimnici/" target="_blank"><img src={ insta_Icon } alt="github"/>instagram.com/dimnici</a>
                 <div className="links">
-                    <a href="domenico.website/"><span>→</span>voltar ao início</a>
+                    <a href="https://domenico.website//"><span>→</span>voltar ao início</a>
                     <a><span>→</span>veja um resumo</a>
                 </div>
             </div>
