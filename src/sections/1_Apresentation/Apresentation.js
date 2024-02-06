@@ -1,5 +1,6 @@
 import React from "react";
 import "./apresentation.css"
+import CvAnderson from "../../assets/certificates/CvAnderson.pdf"
 
 const Apresentation = () => {
     return (
@@ -21,7 +22,8 @@ const Apresentation = () => {
                 <p>Inteligência Artificial.</p>
             </div>
             <div className="apresentation-links">
-                <a><span>→</span>veja um resumo</a>
+                <a href={ CvAnderson } target="_blank"><span>→</span>veja um resumo</a>
+                {/* <a href={ CvAnderson } target="_blank">Full-Stack</a> */}
                 <a href="#about-me"><span>↓</span>vem me conhecer mais</a>
             </div>
         </section>

@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser'
 import github_Icon from "../../assets/images/github_icon.svg"
 import linkedin_Icon from "../../assets/images/linkedin_icon.svg"
 import insta_Icon from "../../assets/images/insta_icon.svg"
+import CvAnderson from "../../assets/certificates/CvAnderson.pdf"
 
 import "./contact.css";
 
@@ -45,7 +46,7 @@ const Contact = () => {
                 <a href="https://www.instagram.com/dimnici/" target="_blank"><img src={ insta_Icon } alt="github"/>instagram.com/dimnici</a>
                 <div className="links">
                     <a href="https://domenico.website//"><span>→</span>voltar ao início</a>
-                    <a><span>→</span>veja um resumo</a>
+                    <a href={ CvAnderson } target="_blank"><span>→</span>veja um resumo</a>
                 </div>
             </div>
             <div className="contact-text">

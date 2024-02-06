@@ -52,7 +52,7 @@ const Studies = () => {
             </div>
 
             <div className="exp">
-                <h3>Dezembro de 2016 - Junho de 2017</h3>
+                <h3>Dezembro de 2018 - Junho de 2019</h3>
                 <div>
                     <h4>Analista de Sistema Junior</h4>
                     <p className="title">EletroLucas - Elétrica, Hidráulica e Utilidades</p>
@@ -66,10 +66,10 @@ const Studies = () => {
             </div>
 
             <div className="exp">
-                <h3>Janeiro de 2015 - Abril de 2016</h3>
+                <h3>Janeiro de 2017 - Abril de 2018</h3>
                 <div>
                     <h4>Estagiário de Tecnologia</h4>
-                    <p className="title">CAESB - Adminisração do Centro Cultural Caesb</p>
+                    <p className="title">CAESB - Administração do Centro Cultural Caesb</p>
                     <p>Durante meu estágio na área de tecnologia nesta companhia, aprimorei minhas competências em UX, desenvolvendo interfaces web, aplicativos e banners digitais de forma eficiente. Além disso, assumi a responsabilidade pelo gerenciamento e aprimoramento do banco de dados do almoxarifado, demonstrando habilidades práticas e contribuindo para a eficiência operacional.</p>
                     <div>
                         <span>HTML</span>
