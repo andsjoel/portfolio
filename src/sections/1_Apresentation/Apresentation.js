@@ -18,7 +18,7 @@ const Apresentation = () => {
             </div>
             <div className="itsMe">
                 <span>Curioso sobre o que o futuro reserva, e apaixonado por explorar novas tecnologias.</span>
-                <p>Sou um desenvolver web de front-end, back-end e estudante de</p>
+                <p>Sou um desenvolvedor web de front-end, back-end e estudante de</p>
                 <p>Inteligência Artificial.</p>
             </div>
             <div className="apresentation-links">
